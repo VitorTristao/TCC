@@ -11,6 +11,33 @@
     {
       "texto": "essa é a 3 parte da resenha",
       "id": 3
+    },
+    {
+      "texto": "Essa parte vai pro professor",
+      "id": 6
+    }
+  ],
+  "professor": [
+    {
+      "id": 1,
+      "textobase": "",
+      "elemento1": "",
+      "elemento2": "",
+      "elemento3": ""
+    },
+    {
+      "textobase": "texto bse dos alunos",
+      "elemento1": "elemtno x",
+      "elemento2": "dasdsaf",
+      "elemento3": "bbbbbbbbbbb",
+      "id": 2
+    },
+    {
+      "textobase": "Esse é o texto base de verdade",
+      "elemento1": "esse é o elemento de verdade",
+      "elemento2": "esse elemento também ",
+      "elemento3": "ultimo elemento",
+      "id": 3
     }
   ]
 }

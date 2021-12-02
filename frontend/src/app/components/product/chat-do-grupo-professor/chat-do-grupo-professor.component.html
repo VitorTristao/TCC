@@ -1,0 +1,118 @@
+<style>
+    body {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+    }
+
+    .container {
+        border: 2px solid #dedede;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .darker {
+        border-color: #ccc;
+        background-color: #ddd;
+    }
+
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .container img {
+        float: left;
+        max-width: 60px;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .container img.right {
+        float: right;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .time-right {
+        float: right;
+        color: #aaa;
+    }
+
+    .time-left {
+        float: left;
+        color: #999;
+    }
+</style>
+
+<h2 style="text-align: center;">Chat de Mensagens</h2>
+
+<div class="container">
+    <img style="width:100%;">
+    <p>Integrantes do grupo: Fulano, Siclano e Beltrano.</p>
+    <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+    <img class="right" style="width:100%;">
+    <b>Fulano:</b>
+    <p>Bom dia Grupo 1, vamos juntar nossas resenhas quando?</p>
+    <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+    <img style="width:100%;">
+    <b>Siclano:</b>
+    <p>Que tal amanhã às 10:00 horas?</p>
+    <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+    <img class="right" style="width:100%;">
+    <b>Beltrano:</b>
+    <p>Combinado</p>
+    <span class="time-left">11:05</span>
+</div>
+
+<div class="container darker">
+    <img class="right" style="width:100%;">
+    <b>Professor:</b>
+    <p>Gostei da interação, parabéns!</p>
+    <span class="time-left">11:15</span>
+</div>
+
+<div id="getText" style="display: none;">
+
+</div>
+
+
+<div style="text-align: center; padding-top: 10px;">
+    <input type="text"> <button>Enviar Mensagem</button>
+</div>
+
+<footer>
+    <!-- <a href="ForumProfessor.html"> -->
+    <button mat-raised-button color="primary" style="position: relative;
+    bottom: 0;  margin-bottom: 10px;">
+        Voltar
+    </button>
+    <!-- </a> -->
+
+    <!-- <a href="ResenhaColetivaProfessor.html"> -->
+    <button mat-raised-button color="primary" (click)="navegaResenhaColetivaProfessor()" style="position: relative;
+       margin-top: 50px; margin-left: 250px">
+        Resenha Coletiva
+    </button>
+    <!-- </a> -->
+
+    <!-- <a href="FormularioDeAvaliacaoProfessor.html"> -->
+    <button mat-raised-button color="primary" (click)="navegaFormularioAvaliacaoProfessor()" style="position: relative;
+    bottom: 0;  margin-left: 158px;">
+        Avaliação
+    </button>
+    <!-- </a> -->
+</footer>

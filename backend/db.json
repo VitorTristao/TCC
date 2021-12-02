@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "texto": "essa é a sua resenha atualizada"
+    },
+    {
+      "texto": "essa é a parte de outro aluno na resenha atualizada",
+      "id": 2
+    },
+    {
+      "texto": "essa é a 3 parte da resenha",
+      "id": 3
+    }
+  ]
+}
